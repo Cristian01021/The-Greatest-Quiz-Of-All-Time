@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>The Greatest Quiz Ever Created</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./assets/style.css'>
+</head>
+
+<body>
+  <section class="scores">
+    <a href="score.html">High Scores</a>
+  </section>
+  <section class="timer">Time Remaining: <span id="time">120</span>sec</section>
+  <main class="quiz">
+    <section id="start">
+      <h1>Attack On Titan</h1>
+      
+      <button id="startButton">Start</button>
+
+    </section>
+    <section class="hide" id="question">
+      <h2 id="questionTitle"></h2>
+      <div id="answers"></div>
+    </section>
+    <section class="hide" id="endScreen">
+      <h2>Finished!</h2>
+      <p>Your Score: <span id="finalScore"></span></p>
+      <p>Initials: <input type="text" id="initials" /></p>
+      <button id="submit">submit</button>
+    </section>
+  </main>
+
+  <script src='./assets/main.js'></script>
+</body>
+
+</html>
