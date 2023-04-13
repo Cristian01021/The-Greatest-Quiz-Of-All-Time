@@ -7,7 +7,7 @@ This was a quiz over a popular (and amazingly written) anime. We were expected t
 N/A
 
 ## Usage 
-Take the quiz here:  https://cristian01021.github.io/mod4t2/
+Take the quiz here:  https://cristian01021.github.io/The-Greatest-Quiz-Of-All-Time/
 
 ## Credits
 I had assistance from my tutor Andrew and some TA's assistance as well. I also referenced these youtube videos to help strengthen my knowledge of javascript and how to go about creating a quiz. 
